@@ -31,9 +31,44 @@ let booleanIsLogedIn = Boolean(isLogedIn);
 
 let someNumber = 33
 let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 
 /*
     33 => 33 (string)
 */
+
+
+
+//***************** Operations *****************
+
+let value = 33
+let negValue = -value
+//console.log(negValue);  //-33
+
+//console.log(2+2); //4
+//console.log(2-2); //0
+//console.log(2*2); //2
+//console.log(2**3); //8
+//console.log(2/2); //1
+//console.log(2%2); //0
+
+
+let str1 = "abc"
+let str2 = "xyz"
+let str3 = str1 + str2
+//console.log(str3); //abcxyz
+
+//console.log(1 + 2); //3
+//console.log("1" + 2); //12
+//console.log(1 + "2"); //12
+//console.log("1" + 2 + 2); //122
+//console.log(1 + 2 + "2"); //32
+
+
+//console.log(+true); //1
+//console.log(true+); // gives an error unexpected token
+
+let gameCounter = 100
+//console.log(++gameCounter); //101
+console.log(gameCounter++); //100
